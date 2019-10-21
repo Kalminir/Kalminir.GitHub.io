@@ -24,12 +24,12 @@
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 818x;
     height: 614px;
+    background: url(L1);
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width: 818x;
     height: 614px;
     background: url(R1);
-    opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
@@ -38,12 +38,12 @@ above to achieve the desired position. */
 .custom .trigger.left{ 
     width: 818x;
     height: 614px;
-    background: url();
+    background: url(L1);
 }
 .custom .trigger.right{
     width: 818x;
     height: 614px;
-    background: url();
+    background: url(R1);
     
 }
 
