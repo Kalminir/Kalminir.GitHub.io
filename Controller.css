@@ -43,6 +43,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(disconnected.png);
+    width: 818px;
+    height: 614px;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
