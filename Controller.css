@@ -42,7 +42,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(disconnected.png);
+    background: url(testdisc.png);
     width: 818px;
     height: 614px;
     position: absolute;
