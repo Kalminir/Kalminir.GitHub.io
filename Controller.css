@@ -22,29 +22,28 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    background: url(L1);
     width: 818x;
     height: 614px;
-    background: url(L1);
 }
 .custom .trigger{/* These are the actual triggers themselves */
+    background: url(R1);
     width: 818x;
     height: 614px;
-    background: url(R1);
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
-    width: 818x;
-    height: 614px;
     background: url(L1);
+    width: 818x;
+    height: 614px;    
 }
 .custom .trigger.right{
-    width: 818x;
-    height: 614px;
     background: url(R1);
-    
+    width: 818x;
+    height: 614px;    
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
