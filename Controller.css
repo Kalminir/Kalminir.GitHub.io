@@ -45,6 +45,11 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(disconnected.png);
     width: 818px;
     height: 614px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
