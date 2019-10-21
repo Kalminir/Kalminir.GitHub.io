@@ -46,8 +46,6 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 818px;
     height: 614px;
     position: absolute;
-    left: 50%;
-    top: 50%;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
