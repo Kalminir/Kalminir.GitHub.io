@@ -58,7 +58,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width: 818x;
     height: 614px;
-    background: url(ps3-assets/triggers.png);
+    background: url(R1);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -68,12 +68,12 @@ above to achieve the desired position. */
 .custom .trigger.left{ 
     width: 818x;
     height: 614px;
-    background: url(L1.png);
+    background: url();
 }
 .custom .trigger.right{
     width: 818x;
     height: 614px;
-    background: url(R1.png);
+    background: url();
     
 }
 
