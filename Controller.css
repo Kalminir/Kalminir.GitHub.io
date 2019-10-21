@@ -68,13 +68,11 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
-    float: left;
     width: 818x;
     height: 614px;
     background: url(L1.png);
 }
 .custom .trigger.right{
-    float: right;
     width: 818x;
     height: 614px;
     background: url(R1.png);
