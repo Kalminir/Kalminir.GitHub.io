@@ -58,8 +58,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     left: 99px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
+    width: 818x;
+    height: 614px;
     background: url(ps3-assets/triggers.png);
     opacity: 0;
 }
@@ -69,9 +69,16 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     float: left;
+    width: 818x;
+    height: 614px;
+    background: url(L1.png);
 }
 .custom .trigger.right{
     float: right;
+    width: 818x;
+    height: 614px;
+    background: url(R1.png);
+    
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
