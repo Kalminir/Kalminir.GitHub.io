@@ -9,6 +9,7 @@
     background: url(testkon.png); 
     width: 818px;
     height: 614px;
+    background-repeat:no-repeat;
     
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
@@ -22,28 +23,35 @@
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    background: url(L1);
-    width: 818x;
-    height: 614px;
+    width: 208px;
+    height: 95px;
+    top: 0px;
+    left:10px;
+    position: absolute;
+    background-repeat:no-repeat;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    background: url(R1);
-    width: 818x;
-    height: 614px;
+    width: 208px;
+    height: 95px;
+    background: url(L2R2.png);
+    background-repeat:no-repeat;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left{ 
-    background: url(L1);
-    width: 818x;
-    height: 614px;    
+    float: left;
+    background-position-x: 104px;    
 }
 .custom .trigger.right{
-    background: url(R1);
-    width: 818x;
-    height: 614px;    
+    float: right;
+    width: 105px;
+    height: 95px;
+    top: 0px;
+    left:612px;
+    background-position-x: -104px;
+    position: absolute;  
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
