@@ -7,15 +7,15 @@
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(testkon.png); 
-    width: 818px;
-    height: 614px;
+    width: 840px;
+    height: 624px;
     background-repeat:no-repeat;
     
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(testdisc.png);
-    width: 818px;
-    height: 614px;
+    width: 840px;
+    height: 624px;
     position: absolute;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
