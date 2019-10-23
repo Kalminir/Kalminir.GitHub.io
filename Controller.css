@@ -57,32 +57,51 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    width: 208px;
+    height: 333px;
+    left: 114px;
+    top: 98px;
+    background: url(bumper.png);
     opacity: 0;
-}
-.custom .bumpers{
+    background-repeat:no-repeat;
     position: absolute;
-    width: 586px;
-    height: 28px;
-    left: 99px;
-    top: 72px;
 }
+
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
-.custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+
+.custom .bumper.right{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     float: left;
+    left: 518px;
+    top: 98px;
 }
-.custom .bumper.right{
+.custom .bumper.left{
     float: right;
+}
+
+.custom .quadrant{
+    position: absolute;
+    background: url(player-n.png);
+    height: 17px;
+    width: 111px;
+    top: 140px;
+    left: 240px;
+    background-repeat:no-repeat;
+}
+.custom .p0{
+    background-position: 0 -6px;
+}
+.custom .p1{
+    background-position: 0 -28px;
+}
+.custom .p2{
+    background-position: 0 -49px;
+}
+.custom .p3{
+    background-position: 0 -70px;
 }
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
