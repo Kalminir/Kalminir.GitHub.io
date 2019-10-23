@@ -310,5 +310,20 @@ width: 55px;
 .custom .trigger-button.right.pressed{
     
 }
-
+.custom .touchpad{
+    position:absolute;
+    height: 624px;
+    width: 840px;
+    background-repeat:no-repeat; 
+    
+}
+.custom .touchpad.pressed{
+    position:absolute;
+    width: 280px;
+    height: 160px;
+    top: 127px;
+    left: 282px;
+    background: url(touchpad.png);
+    background-repeat:no-repeat; 
+}
 /*END PS3 Controller Styling*/
